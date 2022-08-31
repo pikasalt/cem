@@ -20,11 +20,16 @@ public class CemEntitiesInit extends CemEntityInitializer{
 		register(EntityType.OCELOT, CemOcelotRenderer::new);
 		register(EntityType.BAT, CemBatRenderer::new);
 		register(EntityType.BEE, CemBeeRenderer::new);
+		register(EntityType.SILVERFISH, CemSilverfishRenderer::new);
+		register(EntityType.PARROT, CemParrotRenderer::new);
 		register(EntityType.CHICKEN, CemChickenRenderer::new);
 		register(EntityType.COW, CemCowRenderer::new);
+		register(EntityType.RAVAGER, CemRavagerRenderer::new);
 		register(EntityType.SHEEP, CemSheepRenderer::new);
 		register("sheep_wool");
 		register(EntityType.PIG, CemPigRenderer::new);
+		register(EntityType.TURTLE, CemTurtleRenderer::new);
+		/* register(EntityType.LLAMA, CemLlamaRenderer::new); */
 		register(BlockEntityType.BANNER, CemBannerRenderer::new);
 		register(EntityType.MOOSHROOM, CemMooshroomRenderer::new);
 		register(EntityType.ZOMBIE, CemZombieRenderer::new);
@@ -62,6 +67,7 @@ public class CemEntitiesInit extends CemEntityInitializer{
 		register(EntityType.ELDER_GUARDIAN, CemElderGuardianRenderer::new);
 		register(EntityType.ENDER_DRAGON, CemEnderDragonRenderer::new);
 		register(EntityType.HORSE, CemHorseRenderer::new);
+		/* register(EntityType.DONKEY, CemDonkeyRenderer::new); */
 		register(EntityType.ZOMBIE_HORSE, (ctx) -> new CemUndeadHorseRenderer(ctx, EntityType.ZOMBIE_HORSE));
 		register(EntityType.SKELETON_HORSE, (ctx) -> new CemUndeadHorseRenderer(ctx, EntityType.SKELETON_HORSE));
 		register(EntityType.WITCH, CemWitchRenderer::new);
@@ -69,6 +75,7 @@ public class CemEntitiesInit extends CemEntityInitializer{
 		register(EntityType.PHANTOM, CemPhantomRenderer::new);
 		register(EntityType.GHAST, CemGhastRenderer::new);
 		register(EntityType.SALMON, CemSalmonRenderer::new);
+		register(EntityType.DOLPHIN, CemDolphinRenderer::new);
 		register(EntityType.TRIDENT, CemTridentRenderer::new);
 	}
 }
