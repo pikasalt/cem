@@ -67,7 +67,7 @@ assets/dorianpb/cem/za/waurdo/creeper.jem", etc.
 	* Silverfish
 	* Skeletons and their variants (Wither Skeletons and Strays)
 	* Slimes
-	* Spiders (and Cave Spiders
+	* Spiders (and Cave Spiders)
 	* Tridents
 	* Turtles
 	* Villagers (and Zombie Villagers)
