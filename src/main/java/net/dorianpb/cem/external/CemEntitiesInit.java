@@ -54,6 +54,7 @@ public class CemEntitiesInit extends CemEntityInitializer{
 		register(EntityType.WANDERING_TRADER, CemWanderingTraderRenderer::new);
 		register(EntityType.ZOMBIE_VILLAGER, CemZombieVillagerRenderer::new);
 		register(EntityType.RABBIT, CemRabbitRenderer::new);
+		register(EntityType.VEX, CemVexRenderer::new);
 		register(EntityType.GIANT, CemGiantZombieRenderer::new);
 		register(EntityType.WOLF, CemWolfRenderer::new);
 		register(EntityType.MINECART, (ctx) -> new CemMinecartRenderer(ctx, EntityType.MINECART));
