@@ -25,9 +25,12 @@ public class CemEntitiesInit extends CemEntityInitializer{
 		register(EntityType.CHICKEN, CemChickenRenderer::new);
 		register(EntityType.COW, CemCowRenderer::new);
 		register(EntityType.RAVAGER, CemRavagerRenderer::new);
+		register(EntityType.HOGLIN, CemHoglinRenderer::new);
+		register(EntityType.ZOGLIN, CemZoglinRenderer::new);
 		register(EntityType.SHEEP, CemSheepRenderer::new);
 		register("sheep_wool");
 		register(EntityType.PIG, CemPigRenderer::new);
+		register(EntityType.STRIDER, CemStriderRenderer::new);
 		register(EntityType.TURTLE, CemTurtleRenderer::new);
 		/* register(EntityType.LLAMA, CemLlamaRenderer::new); */
 		register(BlockEntityType.BANNER, CemBannerRenderer::new);
