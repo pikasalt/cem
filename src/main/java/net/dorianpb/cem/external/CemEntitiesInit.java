@@ -32,7 +32,8 @@ public class CemEntitiesInit extends CemEntityInitializer{
 		register(EntityType.PIG, CemPigRenderer::new);
 		register(EntityType.STRIDER, CemStriderRenderer::new);
 		register(EntityType.TURTLE, CemTurtleRenderer::new);
-		/* register(EntityType.LLAMA, CemLlamaRenderer::new); */
+		register(EntityType.LLAMA, (ctx) -> new CemLlamaRenderer(ctx, EntityType.LLAMA));
+		register(EntityType.TRADER_LLAMA, (ctx) -> new CemTraderLlamaRenderer(ctx, EntityType.TRADER_LLAMA));
 		register(BlockEntityType.BANNER, CemBannerRenderer::new);
 		register(EntityType.MOOSHROOM, CemMooshroomRenderer::new);
 		register(EntityType.ZOMBIE, CemZombieRenderer::new);
