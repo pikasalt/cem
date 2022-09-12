@@ -4,6 +4,8 @@ import net.dorianpb.cem.external.renderers.*;
 import net.dorianpb.cem.internal.api.CemEntityInitializer;
 import net.minecraft.block.entity.BlockEntityType;
 import net.minecraft.entity.EntityType;
+import net.minecraft.client.render.entity.model.EntityModelLayer;
+import net.minecraft.client.render.entity.model.EntityModelLayers;
 
 public class CemEntitiesInit extends CemEntityInitializer{
 	@Override
@@ -32,7 +34,8 @@ public class CemEntitiesInit extends CemEntityInitializer{
 		register(EntityType.PIG, CemPigRenderer::new);
 		register(EntityType.STRIDER, CemStriderRenderer::new);
 		register(EntityType.TURTLE, CemTurtleRenderer::new);
-		/* register(EntityType.LLAMA, CemLlamaRenderer::new); */
+		register(EntityType.LLAMA, (ctx) -> new CemLlamaRenderer(ctx, EntityType.LLAMA));
+		register(EntityType.TRADER_LLAMA, (ctx) -> new CemTraderLlamaRenderer(ctx, EntityType.TRADER_LLAMA));
 		register(BlockEntityType.BANNER, CemBannerRenderer::new);
 		register(EntityType.MOOSHROOM, CemMooshroomRenderer::new);
 		register(EntityType.ZOMBIE, CemZombieRenderer::new);
@@ -71,7 +74,8 @@ public class CemEntitiesInit extends CemEntityInitializer{
 		register(EntityType.ELDER_GUARDIAN, CemElderGuardianRenderer::new);
 		register(EntityType.ENDER_DRAGON, CemEnderDragonRenderer::new);
 		register(EntityType.HORSE, CemHorseRenderer::new);
-		/* register(EntityType.DONKEY, CemDonkeyRenderer::new); */
+		register(EntityType.DONKEY, (ctx) -> new CemDonkeyRenderer(ctx, 1.0F, EntityModelLayers.DONKEY));
+		register(EntityType.MULE, (ctx) -> new CemDonkeyRenderer(ctx, 1.0F, EntityModelLayers.MULE));
 		register(EntityType.ZOMBIE_HORSE, (ctx) -> new CemUndeadHorseRenderer(ctx, EntityType.ZOMBIE_HORSE));
 		register(EntityType.SKELETON_HORSE, (ctx) -> new CemUndeadHorseRenderer(ctx, EntityType.SKELETON_HORSE));
 		register(EntityType.WITCH, CemWitchRenderer::new);
