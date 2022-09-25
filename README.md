@@ -51,7 +51,7 @@ assets/dorianpb/cem/za/waurdo/creeper.jem", etc.
 	* Foxes
 	* Ghasts
 	* Guardians and Elder Guardians
-	* Horses and their undead variants
+	* Horses and their undead variants, Donkey, Mule
 	* Illagers (Evokers, Illusioners, Pillagers, and Vindicators and Ravager and Vex)
 	* Iron Golems
 	* Magma Cubes
