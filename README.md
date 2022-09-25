@@ -51,9 +51,11 @@ assets/dorianpb/cem/za/waurdo/creeper.jem", etc.
 	* Foxes
 	* Ghasts
 	* Guardians and Elder Guardians
+	* Hoglin
 	* Horses and their undead variants, Donkey, Mule
-	* Illagers (Evokers, Illusioners, Pillagers, and Vindicators and Ravager and Vex)
+	* Illagers (Evokers, Illusioners, Pillagers, Vindicatorsm, Ravager and Vex)
 	* Iron Golems
+	* Llama and Trader Llama
 	* Magma Cubes
 	* Minecarts (all variants)
 	* Mooshrooms
@@ -68,12 +70,14 @@ assets/dorianpb/cem/za/waurdo/creeper.jem", etc.
 	* Skeletons and their variants (Wither Skeletons and Strays)
 	* Slimes
 	* Spiders (and Cave Spiders)
+	* Strider
 	* Tridents
 	* Turtles
 	* Villagers (and Zombie Villagers)
 	* Wandering Traders
 	* Witches
 	* Wolves
+	* Zoglin
 	* Zombies and their variants (Husks, Drowned, and Giants)
 
 * Individual part textures are not supported (you can only specify texture and texture size in the .jem file).
