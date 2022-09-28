@@ -1,6 +1,7 @@
 # Custom Entity Models (but for Fabric)
 
 An implementation of custom entity models heavily based off of Optifine's format that aims to achieve feature parity with Optifine's custom entity models.
+This is a fork of a fork, and I'm not an experienced coder or modder by any means. Expect bugs.
 
 ## Current State of this Mod
 
