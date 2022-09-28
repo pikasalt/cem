@@ -20,10 +20,6 @@ This mod loads .jem and .jpm files from  "assets/dorianpb/cem" folder in resourc
 assets/minecraft/optifine/cem" to "assets/dorianpb/cem" should work fine. If you install the optional dependencies, this isn't necessary as there is an option within the
 config to just load from optifine's folder structure.
 
-## Discord Server Link
-
-Join my discord server here: https://discord.gg/3qxFZm7Ycw
-
 ## For resource pack devs
 
 The file format for the .jem and .jpm is identical to the Optfine's (check out [here](https://github.com/sp614x/optifine/blob/master/OptiFineDoc/doc/cem_model.txt ".jem")
@@ -44,40 +40,32 @@ assets/dorianpb/cem/za/waurdo/creeper.jem", etc.
 	* Cows
 	* Chicken
 	* Creepers
-	* Dolphins
 	* Endermen
 	* Ender Dragon (must be ender_dragon.jem, not dragon.jem)
 	* Fish (just salmon for now)
 	* Foxes
 	* Ghasts
 	* Guardians and Elder Guardians
-	* Hoglin
-	* Horses and their undead variants, Donkey, Mule
-	* Illagers (Evokers, Illusioners, Pillagers, Vindicatorsm, Ravager and Vex)
+	* Horses and their undead variants
+	* Illagers (Evokers, Illusioners, Pillagers, and Vindicators)
 	* Iron Golems
-	* Llama and Trader Llama
 	* Magma Cubes
 	* Minecarts (all variants)
 	* Mooshrooms
 	* Ocelots
-	* Parrot
 	* Phantoms
 	* Pigs
 	* Piglins (including Piglin Brutes and Zombified Piglins)
 	* Rabbits
 	* Sheep
-	* Silverfish
 	* Skeletons and their variants (Wither Skeletons and Strays)
 	* Slimes
-	* Spiders (and Cave Spiders)
-	* Strider
+	* Spiders (and Cave Spiders
 	* Tridents
-	* Turtles
 	* Villagers (and Zombie Villagers)
 	* Wandering Traders
 	* Witches
 	* Wolves
-	* Zoglin
 	* Zombies and their variants (Husks, Drowned, and Giants)
 
 * Individual part textures are not supported (you can only specify texture and texture size in the .jem file).
